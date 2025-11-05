@@ -1,0 +1,36 @@
+# Maven build output
+/target/
+
+# IDE metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+spring.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# CodeQL artifacts
+/codeql-db/
+/idir/
+
+# Others
+out/
+bin/
