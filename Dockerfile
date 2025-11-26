@@ -6,7 +6,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Package stage
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:11-jre-alpine
 WORKDIR /app
 COPY --from=build /app/target/vulnerable-app-0.0.1-SNAPSHOT.jar .
 EXPOSE 8081
